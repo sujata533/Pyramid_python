@@ -1,0 +1,14 @@
+def pattern1(m):
+    for i in range(m):
+        print()
+        for j in range(i-1):
+            
+            print(j,end= '')
+def pattern(m):
+    for i in range(m):
+        print()
+        for j in range(m-i):
+            
+            print(j,end= '')
+pattern1(15)+pattern(15)
+#this is the code for printing the pyramid shape
